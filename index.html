@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071a2d">
+  <title>WoodNest | Nature's Perfect Hideaways</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="WoodNest.css">
+</head>
+<body>
+
+  <main class="scene" id="scene">
+
+    <div class="background"></div>
+    <div class="overlay"></div>
+
+    <section class="frame">
+
+      <!-- Loading border -->
+      <div class="loader-border">
+        <span class="edge top"></span>
+        <span class="edge right"></span>
+        <span class="edge bottom"></span>
+        <span class="edge left"></span>
+      </div>
+
+      <!-- Loading counter -->
+      <div class="loader-count">
+        <span id="progress">0</span><span class="percent">%</span>
+      </div>
+
+      <!-- Navigation -->
+      <header class="navbar reveal-top">
+
+        <a href="#" class="logo">
+          <span class="logo-icon">✳</span>
+          <span class="logo-text">
+            WoodNest
+            <small class="small">RETREATS IN NATURE</small>
+          </span>
+        </a>
+
+        <button class="menu-toggle" aria-label="Toggle menu"
+          aria-expanded="false">
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="nav-links">
+          <a href="#location">Locations</a>
+          <a href="#nature">Nature</a>
+          <a href="#experiences">Experiences</a>
+          <a href="#contact">Contact</a>
+          <a href="#booking" class="nav-button">Book Now</a>
+        </nav>
+
+      </header>
+
+      <!-- Hero content -->
+      <div class="hero-content reveal-left" id="location">
+
+        <p class="eyebrow">
+          <span></span>
+          FIND YOUR QUIET PLACE
+        </p>
+
+        <h1>
+          Nature's<br>
+          <span>Perfect</span><br>
+          Hideaways
+        </h1>
+
+        <p class="description">
+          Escape the everyday. Find your way back to the quiet
+          beauty of the forest, where every stay becomes a story
+          worth keeping.
+        </p>
+
+        <a href="#experiences" class="discover-button">
+          Discover our hideaways
+          <span>↗</span>
+        </a>
+
+      </div>
+
+      <!-- Booking card -->
+      <aside class="booking-card reveal-right" id="booking">
+
+        <p class="card-label">YOUR NEXT ESCAPE</p>
+
+        <h2>Evergreen<br>Pine Family Lodge</h2>
+
+        <div class="rating">
+          <span>★★★★★</span>
+          <strong>4.7</strong>
+          <small>(128 reviews)</small>
+        </div>
+
+        <div class="separator"></div>
+
+        <div class="booking-details">
+
+          <div>
+            <small>CHECK IN</small>
+            <strong>Feb 17</strong>
+          </div>
+
+          <div>
+            <small>CHECK OUT</small>
+            <strong>Feb 20</strong>
+          </div>
+
+          <div>
+            <small>GUESTS</small>
+            <strong>2 adults</strong>
+          </div>
+
+          <div>
+            <small>DURATION</small>
+            <strong>3 nights</strong>
+          </div>
+
+        </div>
+
+        <div class="price">
+          <strong>$359 <small>/ night</small></strong>
+          <span>Taxes included</span>
+        </div>
+
+        <a class="book-button"
+          href="mailto:stay@example.com?subject=WoodNest%20Booking">
+          Reserve your stay <span>↗</span>
+        </a>
+
+      </aside>
+
+    </section>
+
+  </main>
+
+  <script src="woodNest.js"></script>
+</body>
+</html>
